@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<!-- <input type="file" id="data">
+	<input type="button" id='btn'> -->
+
+	<input type="file" name="file" id="file">
+	<input type="button" id='btn'>Convert
+
+	<script>
+		const client_id = 'b865d7c98f1eb00e5860a762c36a8ab6ec37aa00';
+    	const url = 'https://gitter.im/login/oauth/authorize?client_id=9370c7ca8b4cb6e874e3f954f3edd0c866a1f5fa&response_type=code&redirect_uri=http://localhost:8080/';
+
+    	window.location.href = url;
+
+    	console.log(window.location.search);
+
+    	// fetch('https://api.gitter.im/v1/groups', {
+    	// 	Authorize: '279a6b39ff2ba3a1de2b2c2eb81bde12c6a43e42',
+    	// 	Accept: 'application/json {"access_token":[omitted], "scope":"flow,private", "token_type":"bearer"}'
+    	// }).then(resp => console.log(resp));
+
+
+	</script>
+	
+</body>
+</html>
